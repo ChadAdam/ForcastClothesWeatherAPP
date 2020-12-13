@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="Units_labels">
+    <item>Fahrenheit</item>
+    <item>Celsius</item>
+</array>
+<array name="Units_values">
+    <item>Far</item>
+    <item>Cels</item>
+</array>
+
+<array name="head_clothes_labels">
+    <item>Default</item>
+    <item>More Clothes</item>
+    <item>Less Clothes</item>
+</array>
+<array name="head_clothes_values">
+    <item>Good</item>
+    <item>More</item>
+    <item>Less</item>
+
+</array>
+
+
+</resources>

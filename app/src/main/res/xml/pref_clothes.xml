@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="disable_defaults"
+        android:summaryOff="Using Defaults"
+        android:summaryOn="Add Clothes Manually"
+        android:title="Use / Not Use Default Clothes" />
+    <ListPreference
+        android:dependency="disable_defaults"
+        android:defaultValue="@string/clothes_list_default"
+        android:entries="@array/head_clothes_labels"
+        android:entryValues="@array/head_clothes_values"
+        android:key="@string/clothes_list_key"
+        android:title="@string/clothes_list_label" /> -->
+
+
+
+
+    <com.demo.weather.ImageViewPreference
+        app:isPreferenceVisible="true"
+        app:key="image_preference"
+        app:layout="@layout/image_preference_layout" />
+
+
+
+</PreferenceScreen>
